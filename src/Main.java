@@ -9,6 +9,7 @@ public class Main {
         int nextInt = 0;
 
         Scanner inScanner = new Scanner(System.in);
+
         int[] numbers = new int[100];
 
         System.out.println("Enter values (-1 to stop)");
