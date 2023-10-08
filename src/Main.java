@@ -18,7 +18,7 @@ public class Main {
             i++;
         }
         System.out.println("Your values reversed:");
-        while (i >= 0){
+        while (i >= 0) {
             System.out.println(numbers[i - 2]);
             i--;
         }
