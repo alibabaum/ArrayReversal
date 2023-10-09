@@ -2,8 +2,7 @@
 // then press Enter. You can now see whitespace characters in your code.
 
 import java.util.Scanner;
-
-public class Main {
+public class fMain {
     public static void main(String[] args) {
         int i = 0;
         int nextInt = 0;
@@ -13,16 +12,21 @@ public class Main {
         int[] numbers = new int[100];
 
         System.out.println("Enter values (-1 to stop)");
+        nextInt = inScanner.nextInt();
+
         while (nextInt >= 0) {
-            nextInt = inScanner.nextInt();
             numbers[i] = nextInt;
             i++;
+            nextInt = inScanner.nextInt();
         }
+        System.out.println(i);
         System.out.println("Your values reversed:");
-        while (i >= 0) {
-            System.out.println(numbers[i - 2]);
+
+        i = i - 1;
+
+        while (i >= 0 ) {
+            System.out.println(numbers[i]);
             i--;
         }
-
     }
 }
