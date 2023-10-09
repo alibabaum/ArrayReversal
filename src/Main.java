@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class fMain {
+public class Main {
     public static void main(String[] args) {
         int i = 0;
         int nextInt = 0;
@@ -20,7 +20,7 @@ public class fMain {
             i++;
             nextInt = inScanner.nextInt();
         }
-        System.out.println(i);
+        
         System.out.println("Your values reversed:");
 
         i = i - 1;
