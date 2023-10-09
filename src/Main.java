@@ -2,6 +2,7 @@
 // then press Enter. You can now see whitespace characters in your code.
 
 import java.util.Scanner;
+
 public class fMain {
     public static void main(String[] args) {
         int i = 0;
@@ -24,7 +25,7 @@ public class fMain {
 
         i = i - 1;
 
-        while (i >= 0 ) {
+        while (i >= 0) {
             System.out.println(numbers[i]);
             i--;
         }
